@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Label PRs
-        uses: aeong98/Pull-Request-Labeler@pre-release
+        uses: creatrip/pr-labeler@v1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           config-pathname: .github/pr-branch-labeler.yml
