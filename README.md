@@ -30,15 +30,15 @@ jobs:
         uses: creatrip/pr-labeler@v1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          config-pathname: .github/pr-branch-labeler-config.yml
+          config-pathname: .github/pr-labeler-config.yml
 
 ```
 
 ## config file example
-- config file must be placed at `.github/pr-branch-labeler-config.yml`
+- config file must be placed at `.github/pr-labeler-config.yml`
 
 ```yml
-## .github/pr-branch-labeler-config.yml
+## .github/pr-labeler-config.yml
 develop:
   base: ["develop/*", "develop*", "develop"]
 release:
