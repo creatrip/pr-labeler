@@ -1,7 +1,7 @@
 # Pull-Request Labeler
 
 ## Input
-- `repo-token` : 레포지토리 접근을 위한 github token
+- `repo-token` : 레포지토리 접근을 위한 github token 입니다.
 - `config-pathname`: 설정 파일이 위치한 경로입니다. 해당 경로에 위치한 yml파일을 읽어 규칙에 맞게 라벨러를 생성합니다.
 
 ## config file 작성 방법 
